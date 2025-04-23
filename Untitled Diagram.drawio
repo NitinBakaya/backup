@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="NMaMU0YShbcW4j1aVm71">
-    <mxGraphModel dx="1802" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2095" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,9 +29,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-8" value="&lt;b&gt;DR setup&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="130" height="30" as="geometry" />
+          <mxGeometry x="100" y="15" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zbFU5S9o21hl_2Vw8V04-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Downstream Cluster&lt;/h1&gt;&lt;p&gt;Master 1, Master2&lt;/p&gt;&lt;p&gt;cluster state recovery&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zbFU5S9o21hl_2Vw8V04-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Downstream Cluster&lt;/h1&gt;&lt;p&gt;Master 1, Master2&lt;/p&gt;&lt;p&gt;cluster state recovery&lt;/p&gt;&lt;p&gt;3 etcd to maintain the Qouram&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="620" width="280" height="230" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-10" value="LB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -70,8 +70,8 @@
         <mxCell id="zbFU5S9o21hl_2Vw8V04-29" value="master2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="320" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zbFU5S9o21hl_2Vw8V04-32" value="svc.default.local" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="290" width="110" height="30" as="geometry" />
+        <mxCell id="zbFU5S9o21hl_2Vw8V04-32" value="https://svc.default.local:443" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="290" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-33" value="Active AZ1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="15" width="60" height="30" as="geometry" />
@@ -116,7 +116,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-44" value="etcd Qourom" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="40" width="60" height="30" as="geometry" />
+          <mxGeometry x="1000" y="40" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

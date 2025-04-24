@@ -28,8 +28,8 @@
             <mxPoint x="410" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zbFU5S9o21hl_2Vw8V04-8" value="&lt;b&gt;DR setup&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="15" width="130" height="30" as="geometry" />
+        <mxCell id="zbFU5S9o21hl_2Vw8V04-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;DR setup&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="-130" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Downstream Cluster&lt;/h1&gt;&lt;p&gt;Master 1, Master2&lt;/p&gt;&lt;p&gt;cluster state recovery&lt;/p&gt;&lt;p&gt;3 etcd to maintain the Qouram&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="1070" width="280" height="230" as="geometry" />
@@ -63,9 +63,6 @@
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-35" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;master1.svc.default.local&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="260" width="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zbFU5S9o21hl_2Vw8V04-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zbFU5S9o21hl_2Vw8V04-36" target="zbFU5S9o21hl_2Vw8V04-35">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-36" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;master2.svc.default.local&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="80" height="30" as="geometry" />
@@ -113,7 +110,7 @@
           <mxGeometry x="880" y="-90" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Daily snapshots&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Retention policy&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Upload to remote targett&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="670" width="190" height="140" as="geometry" />
+          <mxGeometry x="100" y="940" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="zbFU5S9o21hl_2Vw8V04-66" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -126,6 +123,9 @@
             <mxPoint x="600" y="410" as="sourcePoint" />
             <mxPoint x="590" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zbFU5S9o21hl_2Vw8V04-68" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;table data-end=&quot;2011&quot; data-start=&quot;1564&quot; class=&quot;min-w-full&quot;&gt;&lt;thead data-end=&quot;1637&quot; data-start=&quot;1564&quot;&gt;&lt;tr data-end=&quot;1637&quot; data-start=&quot;1564&quot;&gt;&lt;th data-end=&quot;1586&quot; data-start=&quot;1564&quot;&gt;Feature&lt;/th&gt;&lt;th data-end=&quot;1611&quot; data-start=&quot;1586&quot;&gt;etcd quorum&lt;/th&gt;&lt;th data-end=&quot;1637&quot; data-start=&quot;1611&quot;&gt;etcd snapshot&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody data-end=&quot;2011&quot; data-start=&quot;1712&quot;&gt;&lt;tr data-end=&quot;1786&quot; data-start=&quot;1712&quot;&gt;&lt;td data-end=&quot;1741&quot; data-start=&quot;1712&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;Protects from node failure&lt;/td&gt;&lt;td data-end=&quot;1761&quot; data-start=&quot;1741&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;Yes&lt;/td&gt;&lt;td data-end=&quot;1786&quot; data-start=&quot;1761&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;No&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;1861&quot; data-start=&quot;1787&quot;&gt;&lt;td data-end=&quot;1816&quot; data-start=&quot;1787&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;Protects from human error&lt;/td&gt;&lt;td data-end=&quot;1836&quot; data-start=&quot;1816&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;No&lt;/td&gt;&lt;td data-end=&quot;1861&quot; data-start=&quot;1836&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;Yes&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;1936&quot; data-start=&quot;1862&quot;&gt;&lt;td data-end=&quot;1897&quot; data-start=&quot;1862&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;Protects from total cluster loss&lt;/td&gt;&lt;td data-end=&quot;1911&quot; data-start=&quot;1897&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;No&lt;/td&gt;&lt;td data-end=&quot;1936&quot; data-start=&quot;1911&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;Yes&lt;/td&gt;&lt;/tr&gt;&lt;tr data-end=&quot;2011&quot; data-start=&quot;1937&quot;&gt;&lt;td data-end=&quot;1966&quot; data-start=&quot;1937&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;Enables historical restore&lt;/td&gt;&lt;td data-end=&quot;1986&quot; data-start=&quot;1966&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;No&lt;/td&gt;&lt;td data-end=&quot;2011&quot; data-start=&quot;1986&quot; class=&quot;max-w-[calc(var(--thread-content-max-width)*2/3)]&quot;&gt;&amp;nbsp;Yes&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="690" width="630" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
